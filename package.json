@@ -1,0 +1,31 @@
+{
+  "name": "setupnode",
+  "version": "0.0.1",
+  "description": "Projeto de inicialização e configuração com node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenscelee/setup-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "demo",
+    "jest",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenscelee/setup-nodejs/issues"
+  },
+  "homepage": "https://github.com/rubenscelee/setup-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.3"
+  }
+}
